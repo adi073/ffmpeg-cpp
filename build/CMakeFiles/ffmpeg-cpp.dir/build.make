@@ -73,15 +73,15 @@ CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o: CMakeFiles/ffmpeg-cpp.dir/flags.make
 CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o: CMakeFiles/ffmpeg-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aditya/ffmpeg-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o -MF CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o.d -o CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o -c /home/aditya/ffmpeg-cpp/src/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o -MF CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o.d -o CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o -c /home/aditya/ffmpeg-cpp/src/main.cpp
 
 CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aditya/ffmpeg-cpp/src/main.cpp > CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aditya/ffmpeg-cpp/src/main.cpp > CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.i
 
 CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aditya/ffmpeg-cpp/src/main.cpp -o CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aditya/ffmpeg-cpp/src/main.cpp -o CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.s
 
 # Object files for target ffmpeg-cpp
 ffmpeg__cpp_OBJECTS = \

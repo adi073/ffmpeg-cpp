@@ -1,7 +1,43 @@
 #include<iostream>
+#include<GLFW/glfw3.h>
 
-int main()
+int main(int argc, char *argv[])
 {
-    std::cout << "Hello World!" << std::endl;
+    // Initialize Glfw
+    GLFWwindow* window;
+    if (!glfwInit())
+    {
+        std::cout << "Cannot initialize GLFW" << std::endl;
+        return 1;
+    }
+
+    //  create window
+    window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+    if (!window)
+    {
+        std::cout << "Couldn't create window" << std::endl;
+        return 1;
+    }
+
+    unsigned char* data = new unsigned char[100 * 100 * 3];
+    for (int y=0; y<100; ++y)
+    {
+        for (int x=0; x<100; ++x)
+        {
+            data[y * 100 * 3 + x * 3    ] = 0xff;
+            data[y * 100 * 3 + x * 3 + 1] = 0x00;
+            data[y * 100 * 3 + x * 3 + 2] = 0x00;
+        }
+    }
+
+    glfwMakeContextCurrent(window);
+    while (!glfwWindowShouldClose(window))
+    {
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        glDrawPixels(100, 100, GL_RGB, GL_UNSIGNED_BYTE, data);
+        glfwSwapBuffers(window);
+        glfwWaitEvents();
+    }
+    
     return(0);
 }

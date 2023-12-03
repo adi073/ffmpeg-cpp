@@ -28,7 +28,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/local/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/local/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake"
-  "/usr/local/share/cmake-3.21/Modules/CheckFunctionExists.c"
   "/usr/local/share/cmake-3.21/Modules/CheckFunctionExists.cmake"
   "/usr/local/share/cmake-3.21/Modules/CheckIncludeFile.cmake"
   "/usr/local/share/cmake-3.21/Modules/CheckLibraryExists.cmake"

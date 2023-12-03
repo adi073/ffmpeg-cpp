@@ -180,8 +180,14 @@ CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc
+  /usr/include/c++/11/bits/istream.tcc \
+  ../lib/glfw/include/GLFW/glfw3.h \
+  /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h \
+  /usr/include/KHR/khrplatform.h
 
+
+/usr/include/KHR/khrplatform.h:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -303,6 +309,8 @@ CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
+/usr/include/GL/glext.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
@@ -369,6 +377,8 @@ CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/ext/type_traits.h:
 
+/usr/include/GL/gl.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
 /usr/include/c++/11/iosfwd:
@@ -428,6 +438,8 @@ CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
 /usr/include/wchar.h:
+
+../lib/glfw/include/GLFW/glfw3.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
