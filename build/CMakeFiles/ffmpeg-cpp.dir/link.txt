@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/ffmpeg-cpp.dir/src/main.cpp.o -o ffmpeg-cpp  lib/glfw/src/libglfw3.a -lGL -lX11 /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 
