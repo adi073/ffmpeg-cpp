@@ -30,5 +30,9 @@ else()
     )
 endif()
 
-add_executable(ffmpeg-cpp src/main.cpp)
+list(APPEND SOURCES
+    src/main.cpp
+    src/load_frame.cpp
+    )
+add_executable(ffmpeg-cpp  ${SOURCES})
 target_link_libraries(ffmpeg-cpp FFmpeg glfw ${EXTRA_LIBS})
